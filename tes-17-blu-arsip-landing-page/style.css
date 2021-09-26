@@ -14,10 +14,13 @@
     font-family: TTSupermolotNeue-ExpBoldIt;
     src: url(TTSupermolotNeue-ExpBoldIt.ttf);
 }
+html {
+    overflow-x: hidden;
+}
 body {
     /* background: black; */
     overflow-x: hidden;
-    height: 400vh;
+    max-width: 100%;
 }
 header{
     position: relative;
