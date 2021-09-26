@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 * {
-    overflow-x: hidden;
     margin: 0;padding: 0;box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
@@ -487,7 +486,6 @@ hr.blue-dashed {
         transform: rotate(-45deg) translate(-2px, 0);
     }
     header nav ul {
-        overflow-x: hidden;
         position: absolute;
         right: 0;
         flex-direction: column;
@@ -636,7 +634,6 @@ hr.blue-dashed {
         transform: rotate(-45deg) translate(-2px, 0);
     }
     header nav ul {
-        overflow-x: hidden;
         position: absolute;
         right: 0;
         flex-direction: column;
