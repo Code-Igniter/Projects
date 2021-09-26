@@ -21,7 +21,6 @@ body {
 }
 header{
     position: relative;
-    overflow-x: hidden;
     max-width: 100%;
     align-items: center;
     /* margin: 20px auto; */
