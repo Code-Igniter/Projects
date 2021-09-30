@@ -25,7 +25,9 @@
 
 </head>
 <body>
-    <!-- <div id="preload"></div> -->
+    <div class="preload">
+	    <video preload="auto" muted="muted" autoplay="autoplay" loop="loop" src="preload-vid.mp4"></video>
+    </div>
     <header>
         <a href="#">
             <img src="BA2.png">
@@ -165,6 +167,13 @@
         menuToggle.addEventListener('click', function(){
             nav.classList.toggle('slide');
         })
+    </script>
+    <script type="text/javascript">
+        var loader = document.querySelector(".preload")
+        window.addEventListener("load", vanish);
+        function vanish(){
+            loader.classList.add("disappear");
+        }
     </script>
 </body>
 </html>
