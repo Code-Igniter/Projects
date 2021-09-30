@@ -235,13 +235,30 @@ hr.blue-dashed {
     color: #fff;
 }
 
-#preload {
-    background:url(preload.gif) no-repeat center;
-    background-size: 19%;
-    height: 100vh;
-    width: 100%;
+.preload {
     position: fixed;
-    z-index: 100;
+    top: 0;
+    left: 0;
+    background: white;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preload video {
+    width: 20%;
+}
+.disappear {
+    animation: vanish 1s forwards;
+}
+@keyframes vanish {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
 }
 @media (min-width: 832px) and (max-width: 1300px){
     header nav ul li a .yt-logo{
@@ -357,6 +374,9 @@ hr.blue-dashed {
         "abydos gehenna milenium"
         "trinity winter shan"
         "hyakiyakko arius valkyrie";
+    }
+    .preload video {
+        width: 30%;
     }
 }
 
@@ -513,7 +533,9 @@ hr.blue-dashed {
         "hyakiyakko arius"
         "valkyrie valkyrie";
     }
-    
+    .preload video {
+        width: 50%;
+    }
     /* grid-template-columns: 1fr 4fr 1fr;
     grid-template-areas:
       "header header  header"
@@ -661,6 +683,9 @@ hr.blue-dashed {
         "hyakiyakko"
         "arius"
         "valkyrie";
+    }
+    .preload video {
+        width: 50%;
     }
 /* "title title title"
             "abydos gehenna milenium"
