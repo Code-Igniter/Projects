@@ -1347,4 +1347,25 @@ footer .logo-acc a {
     .main h1 {
         font-size: 2rem;
     }
+    .hero-footer img {
+        width: 20rem;
+        transition: width .5s ease-in;
+    }
+    .footer{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "contentt contentt";
+    }
+    .footer .footer-content img {
+        width: 25rem;
+        transition: width .5s ease-in;
+    }
+    .footer .footer-content .copyright a {
+        font-size: .7rem;
+        transition: font-size .5s ease-in;
+    }
+    .footer .footer-content .download-button a img {
+        width: 10rem;
+        transition: width .5s ease-in;
+    }
 }
