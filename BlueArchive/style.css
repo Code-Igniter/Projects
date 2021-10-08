@@ -1357,15 +1357,15 @@ footer .logo-acc a {
         "contentt contentt";
     }
     .footer .footer-content img {
-        width: 25rem;
+        width: 15rem;
         transition: width .5s ease-in;
     }
     .footer .footer-content .copyright a {
-        font-size: .7rem;
+        font-size: .5rem;
         transition: font-size .5s ease-in;
     }
     .footer .footer-content .download-button a img {
-        width: 10rem;
+        width: 7rem;
         transition: width .5s ease-in;
     }
 }
