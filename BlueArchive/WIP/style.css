@@ -341,4 +341,17 @@ header nav ul li a .tw-logo{
     header nav ul.slide{
         transform: translateX(0);
     }
+    .container svg {
+        width: 20rem;
+        height: 20rem;
+        transition: width .5s;
+	transition: height .5s;
+        transition-timing-function: cubic-bezier(0.77,0,0.18,1);
+    }
+    .container h1 {
+        margin-top: -.4rem;
+        font-size: 5rem;
+        transition: font-size .5s;
+        transition-timing-function: cubic-bezier(0.77,0,0.18,1);
+    }
 }
