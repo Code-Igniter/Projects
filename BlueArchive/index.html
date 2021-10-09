@@ -1038,6 +1038,17 @@
             nav.classList.toggle('slide');
         })
     </script>
+    
+    <!--Scroll to top JS-->
+    <script type="text/javascript">
+        const btnScrollTop = document.querySelector("#home-toggle");
+        btnScrollTop.addEventListener("click", function(){
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
     <!-- Scripts -->
 </body>
 </html>
