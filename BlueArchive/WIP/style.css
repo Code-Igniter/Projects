@@ -27,7 +27,7 @@ header{
     max-width: 100%;
     align-items: center;
     font-family: bafont;
-    background: rgba(1, 73, 124, 0.6);
+    background: #48aae3;
     display: flex;
     justify-content: space-between;
     z-index: 1;
@@ -81,6 +81,9 @@ header nav ul li a .tw-logo{
 .container svg {
     width: 30rem;
     height: 30rem;
+    transition: width .5s;
+    transition: height .5s;
+    transition-timing-function: cubic-bezier(0.77,0,0.18,1);
 }
 .container hr {
     margin-top: 2rem;
@@ -97,6 +100,8 @@ header nav ul li a .tw-logo{
     color: transparent;
     font-family: Poppins;
     font-size: 9rem;
+    transition: font-size .5s;
+    transition-timing-function: cubic-bezier(0.77,0,0.18,1);
 }
 @keyframes gradient {
 	0% {
@@ -123,7 +128,7 @@ header nav ul li a .tw-logo{
         max-width: 100%;
         align-items: center;
         font-family: bafont;
-        background: rgba(1, 73, 124, 0.6);
+        background: #48aae3;
         display: flex;
         justify-content: space-between;
         z-index: 1;
@@ -169,7 +174,7 @@ header nav ul li a .tw-logo{
         height: 10px;
     } */
     header {
-        background: #01497c99;
+        background: #48aae3;
     }
     header img {
         width: 12rem;
@@ -259,7 +264,7 @@ header nav ul li a .tw-logo{
         height: 10px;
     } */
     header {
-        background: #01497c99;
+        background: #48aae3;
     }
     header a img {
         width: 8rem;
