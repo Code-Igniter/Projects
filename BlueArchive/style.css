@@ -79,6 +79,7 @@ header nav ul li a .tw-logo{
 .home .top-bg-cover {
     position: absolute;
     top: 0;
+    min-height: 67.5rem;
     right: 0;
 }
 .tester {
