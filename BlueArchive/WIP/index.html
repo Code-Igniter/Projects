@@ -78,6 +78,17 @@
             nav.classList.toggle('slide');
         })
     </script>
+    <script type="text/javascript">
+      var time = new Date().getHours();
+      if (document.body){
+          if (time >= 19 || time <= 6){
+            document.body.style.backgroundColor = "#06031A";
+          }
+          else {
+              document.body.style.backgroundColor = "#FFFFFF";
+          }
+      }
+    </script>
     <!-- Script! -->
 </body>
 </html>
