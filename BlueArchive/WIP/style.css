@@ -23,7 +23,7 @@ body {
     max-width: 100%;
     display: grid;
     place-items: center;
-    max-height: 100vh;
+    max-height: 100%;
     overflow-y: hidden;
 }
 
