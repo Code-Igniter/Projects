@@ -30,7 +30,7 @@ body {
 .container {
     position: relative;
     min-width: 100px;
-    min-height: 100vh;
+    height: 100vh;
     /* background: green; */
     display: flex;
     justify-content: center;
