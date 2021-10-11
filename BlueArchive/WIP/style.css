@@ -23,14 +23,13 @@ body {
     max-width: 100%;
     display: grid;
     place-items: center;
-    max-height: 100%;
+    min-height: 100vh;
     overflow-y: hidden;
 }
 
 .container {
     position: relative;
     min-width: 100px;
-    height: 100vh;
     /* background: green; */
     display: flex;
     justify-content: center;
@@ -52,8 +51,8 @@ body {
     width: 2rem;
     /* top: 5rem;
     left: 50rem; */
-    top: 5rem;
-    left: 5rem;
+    top: 0rem;
+    left: 4rem;
     transform-origin: center;
     animation: cross 5.5s ease-in-out infinite;
 }
@@ -72,7 +71,7 @@ body {
     /* top: 18rem;
     left: 48rem; */
     left: 2rem;
-    bottom: 10rem;
+    bottom: 2rem;
     transform-origin: center;
     animation: triagle 5s linear infinite;
 }
@@ -92,7 +91,7 @@ body {
     width: 10rem;
     /* top: 10rem;
     right: 42rem; */
-    top: 10rem;
+    top: 3rem;
     right: -5rem;
     /* transform: translateX(13rem); */
     animation: circlee 8s ease-in-out infinite;
@@ -101,7 +100,7 @@ body {
     position: absolute;
     z-index: 3;
     width: 2rem;
-    bottom: 7rem;
+    bottom: 0;
     right: 6rem;
     animation: triagle 5s linear infinite;
 }
@@ -161,19 +160,19 @@ body {
         transition-timing-function: cubic-bezier(0.77,0,0.18,1);
     }
     .container .cross {
-        top: 15rem;
-        left: 2rem;
-        width: 1.5rem;
+        top: 0;
+        left: 3rem;
+        width: 2rem;
     }
     .container .triagle {
-        bottom: 15rem;
-        left: 1rem;
+        bottom: 2rem;
+        left: 1.5rem;
         width: 2rem;
     }
     .container .circle {
         width: 6rem;
         right: -2rem;
-        top: 18rem;
+        top: 3rem;
         animation: circlee 6s ease-in-out infinite;
     }
     @keyframes circlee {
@@ -185,7 +184,7 @@ body {
         }
     }
     .container .plus {
-        bottom: 14rem;
+        bottom: 0;
         right: 5rem;
     }
 }
