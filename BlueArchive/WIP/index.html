@@ -71,18 +71,10 @@
     
     <!-- Script! -->
     <script type="text/javascript">
-        const menuToggle = document.querySelector('.menu input');
-        const nav = document.querySelector('header nav ul');
-
-        menuToggle.addEventListener('click', function(){
-            nav.classList.toggle('slide');
-        })
-    </script>
-    <script type="text/javascript">
       var time = new Date().getHours();
       if (document.body){
           if (time >= 18 || time <= 6){
-            document.body.style.backgroundColor = "#3f37c9";
+            document.body.style.backgroundColor = "#001233";
           }
           else {
               document.body.style.backgroundColor = "#FFFFFF";
