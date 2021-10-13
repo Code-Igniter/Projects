@@ -115,8 +115,8 @@ body {
 .container hr {
     margin-top: 2rem;
     width: 20rem;
-    border-top: 5px solid #48bfe3;
-    
+    border: 2px solid #48bfe3;
+    border-radius: 50px 50px 50px 50px;
 }
 .container h1 {
     background: linear-gradient(-45deg, #033BAB, #0E72E6, #23a6d5, #23d5ab);
