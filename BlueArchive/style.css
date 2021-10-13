@@ -193,7 +193,7 @@ hr.blue-dashed {
     align-items: center;
 }
 
-.preload video {
+.preload .svg {
     width: 20%;
 }
 .disappear {
