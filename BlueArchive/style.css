@@ -22,6 +22,10 @@ body {
     overflow-x: hidden;
     max-width: 100%;
 }
+
+.container {
+    display: none;
+}
 header{
     position: relative;
     max-width: 100%;
