@@ -1,1 +1,1397 @@
-@import "https://fonts.googleapis.com/css2?family=PT+Sans&display=swap";@import "https://fonts.googleapis.com/css2?family=Poppins&display=swap";*{margin:0;padding:0;box-sizing:border-box;list-style-type:none;text-decoration:none;scroll-behavior:smooth}@font-face{font-family:bafont;src:url(RoGSanSrfStd-Bd.otf)}@font-face{font-family:TTSupermolotNeue-ExpBoldIt;src:url(TTSupermolotNeue-ExpBoldIt.ttf)}::-moz-scroll-bar{display:none}::-webkit-scrollbar{display:none}html{overflow-x:hidden}body{overflow-x:hidden;max-width:100%}.container{display:none}header{position:relative;max-width:100%;align-items:center;font-family:bafont;background:rgba(1,73,124,0.6);display:flex;justify-content:space-between;z-index:1;text-transform:uppercase}header img{padding-left:5em}header .menu{padding-right:2em}header nav ul{display:flex;width:100%;padding-right:5em;justify-content:space-between}header nav ul li a{color:#fff;font-size:19px;padding:12px 30px 10px}header nav ul li a .yt-logo{align-items:center;justify-content:center;padding-left:5px}header nav ul li a .tw-logo{border-top:0;padding-left:5px}.menu{display:none}.sidebar{display:none}.home .video{position:absolute;top:0;right:0}.home .top-bg-cover{position:absolute;top:0;min-height:67.5rem;right:0}.tester{display:none}.tester2{display:none}hr.blue-dashed{border-top:6px dashed #48bfe3}.container-vid{position:relative;width:100%;height:1014px;z-index:4}.container-vid .logo{place-items:center;align-items:center;justify-content:center;display:flex;padding-top:10em}.main{padding:3.5em}.main h1{font-size:3rem;padding-bottom:.5em;text-align:center;font-family:TTSupermolotNeue-ExpBoldIt}.main h1 .blue{color:#48bfe3}.main p{text-align:justify;font-size:1.5rem;line-height:2rem;font-family:'PT Sans',sans-serif}.main .img-main{width:100%;padding-top:1.5em;justify-content:center;display:flex}.Club{background:#48bfe3;display:grid;grid-template-columns:repeat(4,1fr);padding:2em;grid-gap:1em;grid-template-areas:"title title title title " "abydos gehenna milenium trinity" "winter shan hyakiyakko arius" ". valkyrie valkyrie . "}.Club h1{font-family:TTSupermolotNeue-ExpBoldIt;color:#fff;grid-area:title;display:flex;align-items:center;text-align:center;justify-content:center;font-size:3rem}.Club .aby{grid-area:abydos}.Club .gehe{grid-area:gehenna}.Club .mile{grid-area:milenium}.Club .winter{grid-area:winter}.Club .tri{grid-area:trinity}.Club .hyak{grid-area:hyakiyakko}.Club .shan{grid-area:shan}.Club .arius{grid-area:arius}.Club .valk{grid-area:valkyrie}.Club .grid-items{display:flex;justify-content:center}.Club .grid-items input{position:absolute;width:300px;height:300px;cursor:pointer;opacity:0}.Club .grid-items a{text-align:center;font-family:'PT Sans',sans-serif;font-weight:700;color:#fff}.second{position:relative;text-align:center;font-size:3rem;padding-bottom:.5em;font-family:TTSupermolotNeue-ExpBoldIt;color:#fff}.preload{position:fixed;overflow:hidden;top:0;left:0;background:#fff;height:100%;width:100%;z-index:999;display:flex;justify-content:center;align-items:center}.preload .svg{width:20%}.disappear{animation:vanish 1s forwards}@keyframes vanish{100%{opacity:0;visibility:hidden}}.students-banner{position:relative;width:100%;padding:2em;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:80px;grid-template-areas:". title title ."}.students-banner h1{display:flex;align-items:center;justify-content:center;grid-area:title;color:#fff;font-size:3rem;background:url(students-remake.png) no-repeat center center;font-family:TTSupermolotNeue-ExpBoldIt}.all-students{position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));width:100%;background:#fff;padding:2em;grid-gap:1em}.all-students .grid-items{display:flex;text-align:center;justify-content:center;align-items:center}.all-students .grid-items img{width:13rem}.all-students .grid-items a{color:#000;font-family:PT Sans}.shanhaijingg{position:relative;display:grid;display:none;grid-template-columns:repeat(6,1fr);grid-template-rows:300px;place-items:center;width:100%;background:#fff;padding:2em;grid-gap:1em;grid-template-areas:". . shun saya . ."}.shanhaijingg .shun{grid-area:shun}.shanhaijingg .saya{grid-area:saya}.shanhaijingg .grid-items{display:flex;text-align:center;justify-content:center;align-items:center}.shanhaijingg .grid-items img{width:13rem}.shanhaijingg .grid-items a{color:#000;font-family:PT Sans}.hyakiyako{position:relative;display:grid;display:none;grid-template-columns:repeat(5,1fr);grid-template-rows:300px;place-items:center;width:100%;background:#fff;padding:2em;grid-gap:1em;grid-template-areas:"chise tsubaki fina izuna shizuko"}.hyakiyako .chise{grid-area:chise}.hyakiyako .tsubaki{grid-area:tsubaki}.hyakiyako .fina{grid-area:fina}.hyakiyako .izuna{grid-area:izuna}.hyakiyako .shizuko{grid-area:shizuko}.hyakiyako .grid-items{display:flex;text-align:center;justify-content:center;align-items:center}.hyakiyako .grid-items img{width:13rem}.hyakiyako .grid-items a{color:#000;font-family:PT Sans}.valkyriee{position:relative;display:grid;display:none;grid-template-columns:repeat(6,1fr);grid-template-rows:300px;place-items:center;width:100%;background:#fff;padding:2em;grid-gap:1em;grid-template-areas:"kirino kirino kirino kirino kirino kirino"}.valkyriee .grid-items a{color:#000;font-family:PT Sans}.valkyriee .grid-items img{width:13rem}.valkyriee .grid-items{display:flex;text-align:center;justify-content:center;align-items:center}.valkyriee .kirino{grid-area:kirino}.ariusss{width:100%;display:none;min-height:50px;text-align:center;justify-content:center;align-items:center}.ariusss h3{font-family:PT Sans;font-size:2rem}.red-winter{position:relative;display:grid;display:none;grid-template-columns:repeat(6,1fr);grid-template-rows:300px;place-items:center;width:100%;background:#fff;padding:2em;grid-gap:1em;grid-template-areas:". . cherino nodoka . ."}.red-winter .grid-items{display:flex;text-align:center;justify-content:center;align-items:center}.red-winter .grid-items img{width:13rem}.red-winter .grid-items a{color:#000;font-family:PT Sans}.red-winter .cherino{grid-area:cherino}.red-winter .nodoka{grid-area:nodoka}.trinity{position:relative;display:grid;display:none;grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(2,300px);width:100%;background:#fff;padding:2em;grid-gap:1em;grid-template-areas:"azusa hanako hasumi mashiro tsurugi" "hanae airi serina shimiko yoshimi"}.trinity .grid-items{display:flex;text-align:center;justify-content:center;align-items:center}.trinity .grid-items img{width:13rem}.trinity .grid-items a{color:#000;font-family:PT Sans}.trinity .azusa{grid-area:azusa}.trinity .hanako{grid-area:hanako}.trinity .hasumi{grid-area:hasumi}.trinity .mashiro{grid-area:mashiro}.trinity .tsurugi{grid-area:tsurugi}.trinity .hanae{grid-area:hanae}.trinity .airi{grid-area:airi}.trinity .serina{grid-area:serina}.trinity .shimiko{grid-area:shimiko}.trinity .yoshimi{grid-area:yoshimi}.millennium{position:relative;display:grid;display:none;grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(4,300px);width:100%;background:#fff;padding:2em;grid-gap:1em;grid-template-areas:"yuuka arisu yuzu momoi midori" "eimi akane asuna neru karin" "kotama hare utaha hibiki kotori" "maki maki maki maki maki"}.millennium .yuuka{grid-area:yuuka}.millennium .arisu{grid-area:arisu}.millennium .yuzu{grid-area:yuzu}.millennium .momoi{grid-area:momoi}.millennium .midori{grid-area:midori}.millennium .eimi{grid-area:eimi}.millennium .akane{grid-area:akane}.millennium .asuna{grid-area:asuna}.millennium .neru{grid-area:neru}.millennium .karin{grid-area:karin}.millennium .kotama{grid-area:kotama}.millennium .hare{grid-area:hare}.millennium .utaha{grid-area:utaha}.millennium .hibiki{grid-area:hibiki}.millennium .kotori{grid-area:kotori}.millennium .maki{grid-area:maki}.millennium .grid-items{display:flex;text-align:center;justify-content:center;align-items:center}.millennium .grid-items img{width:13rem}.millennium .grid-items a{color:#000;font-family:PT Sans}.gehenna{position:relative;display:grid;display:none;grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(3,300px);width:100%;background:#fff;padding:2em;grid-gap:1em;grid-template-areas:"iori hina aru haruna haruka" "izumi akari kayoko junko mutsuki" "..... chinatsu juri fuuka ......"}.gehenna .grid-items{display:flex;text-align:center;justify-content:center;align-items:center}.gehenna .grid-items img{width:13rem}.gehenna .grid-items a{color:#000;font-family:PT Sans}.gehenna .iori{grid-area:iori}.gehenna .hina{grid-area:hina}.gehenna .aru{grid-area:aru}.gehenna .haruna{grid-area:haruna}.gehenna .haruka{grid-area:haruka}.gehenna .izumi{grid-area:izumi}.gehenna .akari{grid-area:akari}.gehenna .kayoko{grid-area:kayoko}.gehenna .junko{grid-area:junko}.gehenna .mutsuki{grid-area:mutsuki}.gehenna .chinatsu{grid-area:chinatsu}.gehenna .juri{grid-area:juri}.gehenna .fuuka{grid-area:fuuka}.abydos{position:relative;display:grid;display:none;grid-template-columns:repeat(5,1fr);grid-template-rows:300px;width:100%;background:#fff;padding:2em;grid-gap:1em;grid-template-areas:"shiroko nonomi hoshino serika ayane"}.abydos .grid-items{display:flex;text-align:center;justify-content:center;align-items:center}.abydos .shiroko{grid-area:shiroko}.abydos .nonomi{grid-area:nonomi}.abydos .hoshino{grid-area:hoshino}.abydos .serika{grid-area:serika}.abydos .ayane{grid-area:ayane}@media all and (max-width:1216px){.abydos{grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,300px);grid-template-areas:"shiroko nonomi hoshino serika" "....... ayane ayane ....."}.gehenna{grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(4,300px);grid-template-areas:"iori hina aru haruna" "haruka izumi akari kayoko" "junko mutsuki chinatsu juri" "fuuka fuuka fuuka fuuka"}.millennium{grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(4,300px);grid-template-areas:"yuuka arisu yuzu momoi" "midori eimi akane asuna" "neru karin kotama hare" "utaha hibiki kotori maki"}.trinity{grid-template-rows:repeat(3,300px);grid-template-columns:repeat(4,1fr);grid-template-areas:"azusa hanako hasumi mashiro" "tsurugi hanae airi serina" "....... shimiko yoshimi ...."}.hyakiyako{grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,300px);grid-template-areas:"chise tsubaki fina izuna" "....... shizuko shizuko ....."}.students-banner{grid-template-columns:repeat(3,1fr);grid-template-areas:"title title title"}}@media all and (max-width:966px){.abydos{grid-template-rows:repeat(3,300px);grid-template-columns:repeat(2,1fr);grid-template-areas:"shiroko nonomi" "hoshino serika" "ayane ayane"}.gehenna{grid-template-rows:repeat(7,300px);grid-template-columns:repeat(2,1fr);grid-template-areas:"iori hina" "aru haruna" "haruka izumi" "akari kayoko" "junko mutsuki" "chinatsu juri" "fuuka fuuka"}.millennium{grid-template-rows:repeat(8,300px);grid-template-columns:repeat(2,1fr);grid-template-areas:"yuuka arisu" "yuzu momoi" "midori eimi" "akane asuna" "neru karin" "kotama hare" "utaha hibiki" "kotori maki"}.trinity{grid-template-rows:repeat(5,300px);grid-template-columns:repeat(2,1fr);grid-template-areas:"azusa hanako" "hasumi mashiro" "tsurugi hanae" "airi serina" "shimiko yoshimi"}.students-banner{grid-template-columns:repeat(2,1fr);grid-template-areas:"title title"}.hyakiyako{grid-template-rows:repeat(3,300px);grid-template-columns:repeat(2,1fr);grid-template-areas:"chise tsubaki" "fina izuna" "shizuko shizuko"}}@media all and (max-width:500px){.abydos{grid-template-columns:1fr;grid-template-rows:repeat(5,300px);grid-template-areas:shiroko nonomi hoshino serika ayane}.gehenna{grid-template-rows:repeat(13,300px);grid-template-columns:1fr;grid-template-areas:iori hina aru haruna haruka izumi akari kayoko junko mutsuki chinatsu juri fuuka}.millennium{grid-template-rows:repeat(16,300px);grid-template-columns:1fr;grid-template-areas:yuuka arisu yuzu momoi midori eimi akane asuna neru karin kotama hare utaha hibiki kotori maki}.trinity{grid-template-rows:repeat(10,300px);grid-template-columns:1fr;grid-template-areas:azusa hanako hasumi mashiro tsurugi hanae airi serina shimiko yoshimi}.red-winter{grid-template-rows:repeat(2,300px);grid-template-columns:1fr;grid-template-areas:cherino nodoka}.shanhaijingg{grid-template-rows:repeat(2,300px);grid-template-columns:1fr;grid-template-areas:shun saya}.hyakiyako{grid-template-columns:1fr;grid-template-rows:repeat(5,300px);grid-template-areas:chise tsubaki fina izuna shizuko}}.abydos .grid-items img{width:13rem}.abydos .grid-items a{color:#000;font-family:PT Sans}.hero-footer{width:100%;display:grid;grid-template-columns:repeat(4,1fr);grid-template-areas:"hero hero hero hero"}.hero-footer .grid-items{grid-area:hero;display:flex;justify-content:center;align-items:center}.hero-footer img{width:30rem;z-index:0;transform:translateY(50px)}.footer{position:relative;display:grid;width:100%;grid-template-columns:repeat(4,1fr);grid-template-rows:1fr;grid-template-areas:"contentt contentt contentt contentt"}.footer .hero-footer{grid-area:hero;display:flex;justify-content:center}.footer .footer-content{padding-top:2em;border-radius:50px 50px 0 0;grid-auto-rows:minmax(30px,auto);grid-area:contentt;position:relative;z-index:10;background:#48bfe3;box-shadow:-2px -6px 17px 0 rgba(1,73,124,.34);-webkit-box-shadow:-2px -6px 17px 0 rgba(1,73,124,.34);-moz-box-shadow:-2px -6px 17px 0 rgba(1,73,124,.34);display:flex;flex-direction:column;justify-content:center;align-items:center}.footer .footer-content .copyright{width:100%;min-height:10vh;text-transform:uppercase;display:flex;align-items:center;justify-content:center}.footer .footer-content .copyright a{font-size:1.3rem;padding:12px 30px 10px;color:#fff;font-family:bafont;border-right:5px solid #fff}.footer .footer-content .copyright .cp1{border:0 solid transparent}.footer .footer-content img{padding-bottom:6em;transform:translateY(50px);width:50rem}.footer .footer-content .download-button{width:100%;display:flex;justify-content:center;align-items:center;cursor:default}.footer .footer-content .download-button a{padding-right:2em;margin-left:2em}.footer .footer-content .download-button a img{width:20rem}.footer .footer-content #home-toggle{position:relative;width:100%;display:flex;justify-content:flex-end;color:#fff}@media all and (max-width: 828px){.footer{grid-template-columns:repeat(3,1fr);grid-template-areas:"contentt contentt contentt"}.footer .footer-content img{width:40rem;transition:width .5s ease-in}.footer .footer-content .copyright a{font-size:1rem;transition:font-size .5s ease-in}.footer .footer-content .download-button a img{width:15rem;transition:width .5s ease-in}}@media all and (max-width: 671px){.footer{grid-template-columns:repeat(2,1fr);grid-template-areas:"contentt contentt"}.footer .footer-content img{width:30rem;transition:width .5s ease-in}.footer .footer-content .copyright a{font-size:1rem;transition:font-size .5s ease-in}.footer .footer-content .download-button a img{width:13rem;transition:width .5s ease-in}}@media all and (max-width: 581px){.hero-footer img{width:20rem;transition:width .5s ease-in}.footer{grid-template-columns:repeat(2,1fr);grid-template-areas:"contentt contentt"}.footer .footer-content img{width:25rem;transition:width .5s ease-in}.footer .footer-content .copyright a{font-size:.7rem;transition:font-size .5s ease-in}.footer .footer-content .download-button a img{width:10rem;transition:width .5s ease-in}}footer{position:relative;width:100%;min-height:10vh;text-align:center;background:#0F183D}footer p{padding-top:10px;font-size:1rem;font-family:Poppins;color:#fff}footer .logo-acc{padding-bottom:1em;width:100%;display:flex;align-items:center;justify-content:center;margin-top:1em}footer .logo-acc i{font-size:1.3rem}footer .logo-acc a{color:#fff;padding-left:30px;padding-right:30px}@media all and (max-width: 1411px){header{position:relative;max-width:100%;align-items:center;font-family:bafont;background:rgba(1,73,124,0.6);display:flex;justify-content:space-between;z-index:1;text-transform:uppercase}header a img{width:12rem;padding-left:5em}header .menu{padding-right:2em}header nav ul{display:flex;width:100%;padding-right:1em;justify-content:space-between}header nav ul li a{color:#fff;font-size:11px;padding:12px 30px 10px}header nav ul li a .yt-logo{width:5rem;align-items:center;justify-content:center;padding-left:5px}header nav ul li a .tw-logo{width:2.5rem;border-top:0;padding-left:5px}.tester2{display:block;position:relative;width:100%;height:1014px}.tester2 video{position:absolute;top:-66px;right:-50px}.tester2 .logo{position:absolute;top:40vh;left:30vw}.container-vid{display:none}.home .video{display:none}.Club{grid-template-columns:1fr 1fr 1fr;grid-template-areas:"title title title" "abydos gehenna milenium" "trinity winter shan" "hyakiyakko arius valkyrie"}.preload video{width:30%}.footer img{z-index:0;width:40%;transform:translateY(50px)}}@media all and (max-width: 1056px){header{background:#01497c99}header img{width:12rem;padding-left:2em;transition:cubic-bezier(0.77,0,0.18,1)}header nav ul li a .yt-logo{display:block}header nav ul li a .tw-logo{display:block}header nav ul li a{display:block}.container-vid{display:none}.container-vid .logo{display:block;z-index:900}.home .top-bg-cover{height:120vh}.home .video{display:none}.tester{display:none}.tester2{display:block;position:relative;width:100%;height:1014px}.tester2 video{position:absolute;top:-66px;right:-20em}.tester2 .logo{position:absolute;top:40vh;left:30vw}.menu{display:flex;flex-direction:column;height:20px;justify-content:space-between;position:relative;z-index:10}.menu input{position:absolute;width:40px;height:28px;opacity:0;left:-5px;top:-5px;cursor:pointer;z-index:10}.menu span{display:block;width:30px;height:3px;background:#fff;border-radius:3px;transition:all .2s}.menu span:nth-child(2){transform-origin:0 0}.menu span:nth-child(4){transform-origin:0 100%}.menu input:checked ~ span:nth-child(2){background-color:#fff;transform:rotate(45deg) translate(-2px,-1px)}.menu input:checked ~ span:nth-child(3){opacity:0;transform:scale(0)}.menu input:checked ~ span:nth-child(4){background-color:#fff;transform:rotate(-45deg) translate(-2px,0)}header nav ul{position:absolute;right:0;flex-direction:column;background-color:#48bfe3;top:0;width:50%;height:100vh;align-items:center;justify-content:space-evenly;z-index:4;transform:translateX(100%);transition:all .5s}header nav ul.slide{transform:translateX(0)}.main p{font-size:1rem;line-height:1.6rem}.Club{grid-template-columns:1fr 1fr;grid-template-areas:"title title" "abydos gehenna" "milenium trinity" "winter shan" "hyakiyakko arius" "valkyrie valkyrie"}.preload video{width:50%}.footer img{z-index:0;width:50%;transform:translateY(50px)}footer p{font-size:.8rem}}@media all and (max-width: 600px){header{background:#01497c99}header a img{width:8rem;padding-left:1.2em}header nav ul li a .yt-logo{display:block}header nav ul li a .tw-logo{display:block}header nav ul li a{display:block}.container-vid{display:none}.container-vid .logo{display:block;z-index:900}.home .top-bg-cover{height:120vh}.home .video{display:none}.tester2{display:none}.tester{display:block;position:relative;width:100%;height:1014px;background-size:cover}.tester video{position:absolute;top:-66px;right:-50px}.tester .logo{position:absolute;top:40vh;left:24vw;z-index:0}.menu{display:flex;flex-direction:column;height:20px;justify-content:space-between;position:relative;z-index:10}.menu input{position:absolute;width:40px;height:28px;opacity:0;left:-5px;top:-5px;cursor:pointer;z-index:10}.menu span{display:block;width:30px;height:3px;background:#fff;border-radius:3px;transition:all .2s}.menu span:nth-child(2){transform-origin:0 0}.menu span:nth-child(4){transform-origin:0 100%}.menu input:checked ~ span:nth-child(2){background-color:#fff;transform:rotate(45deg) translate(-2px,-1px)}.menu input:checked ~ span:nth-child(3){opacity:0;transform:scale(0)}.menu input:checked ~ span:nth-child(4){background-color:#fff;transform:rotate(-45deg) translate(-2px,0)}header nav ul{position:absolute;right:0;flex-direction:column;background-color:#48bfe3;top:0;width:80%;height:100vh;align-items:center;justify-content:space-evenly;z-index:4;transform:translateX(100%);transition:all .5s}header nav ul.slide{transform:translateX(0)}.main p{font-size:1rem;line-height:1.6rem}.Club{grid-template-columns:1fr;grid-template-areas:title abydos gehenna milenium trinity winter shan hyakiyakko arius valkyrie}.preload .svg{width:35rem}.footer img{z-index:0;width:70%;transform:translateY(50px)}footer p{font-size:.8rem}.main h1{font-size:2rem}.hero-footer img{width:20rem;transition:width .5s ease-in}.footer{grid-template-columns:repeat(2,1fr);grid-template-areas:"contentt contentt"}.footer .footer-content img{width:20rem;transition:width .5s ease-in}.footer .footer-content .copyright{flex-direction:column}.footer .footer-content .copyright a{border-bottom:5px solid #fff;border-right:0 solid #fff;display:block;font-size:.8rem;transition:font-size .5s ease-in}.footer .footer-content .download-button{flex-direction:column;margin:0;padding:0}.footer .footer-content .download-button a img{margin-top:0;margin-right:0;width:10rem;transition:width .5s ease-in}}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;padding: 0;box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+@font-face{
+    font-family: bafont;
+    src: url(RoGSanSrfStd-Bd.otf);
+}
+@font-face {
+    font-family: TTSupermolotNeue-ExpBoldIt;
+    src: url(TTSupermolotNeue-ExpBoldIt.ttf);
+}
+::-moz-scroll-bar {
+    display: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.container {
+    display: none;
+}
+header{
+    position: relative;
+    max-width: 100%;
+    align-items: center;
+    font-family: bafont;
+    background: rgba(1, 73, 124, 0.6);
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+header img {
+    padding-left: 5em;
+}
+header .menu {
+    padding-right: 2em;;
+}
+header nav ul {
+    display: flex;
+    width: 100%;
+    padding-right: 5em;
+    justify-content: space-between;
+    /* padding-top: 1em; */
+}
+header nav ul li a{
+    color: white;
+    font-size:19px;
+    padding: 12px 30px 10px;
+}
+header nav ul li a .yt-logo{
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+}
+header nav ul li a .tw-logo{
+    border-top: 0;
+    padding-left: 5px;
+}
+
+ /* Buat Sidebarrrrr  */
+.menu {
+    display: none;
+}
+.sidebar {
+    display: none;
+}
+/* SIDEBAAARRRRRR */
+
+.home .video {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.home .top-bg-cover {
+    position: absolute;
+    top: 0;
+    min-height: 67.5rem;
+    right: 0;
+}
+.tester {
+    display: none;
+}
+.tester2 {
+    display: none;
+}
+hr.blue-dashed {
+    border-top: 6px dashed #48bfe3;
+}
+.container-vid {
+    position: relative;
+    width: 100%;
+    height: 1014px;
+    z-index: 4;
+}
+.container-vid .logo {
+    place-items: center;
+    align-items:center;
+    justify-content:center;
+    display: flex;
+    padding-top: 10em;
+}
+.main {
+    padding: 3.5em;
+}
+.main h1{
+    font-size: 3rem;
+    padding-bottom: .5em;
+    text-align: center;
+    font-family: TTSupermolotNeue-ExpBoldIt;
+}
+.main h1 .blue {
+    color:#48bfe3;
+}
+.main p {
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: 'PT Sans', sans-serif;
+}
+.main .img-main {
+    width: 100%;
+    padding-top: 1.5em;
+    justify-content: center;
+    display: flex;
+}
+
+.Club {
+    /* My Coretan */
+    background: #48bfe3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2em;
+    grid-gap: 1em;
+    grid-template-areas: 
+        "title title title title "
+        "abydos gehenna milenium trinity"
+        "winter shan hyakiyakko arius"
+        ". valkyrie valkyrie . ";
+}
+.Club h1 {font-family: TTSupermolotNeue-ExpBoldIt; color: white; grid-area: title;display: flex; align-items: center; text-align: center; justify-content: center;font-size: 3rem;}
+.Club .aby {grid-area: abydos;}
+.Club .gehe {grid-area: gehenna;}
+.Club .mile {grid-area: milenium;}
+.Club .winter {grid-area: winter;}
+.Club .tri {grid-area: trinity;}
+.Club .hyak {grid-area: hyakiyakko;}
+.Club .shan {grid-area: shan;}
+.Club .arius {grid-area: arius;}
+.Club .valk {grid-area: valkyrie;}
+
+.Club .grid-items {
+    display: flex;
+    justify-content: center;
+}
+.Club .grid-items input{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    opacity: 0;
+}
+.Club .grid-items a {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.second {
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: .5em;
+    font-family: TTSupermolotNeue-ExpBoldIt;
+    color: #fff;
+}
+
+.preload {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background: white;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preload .svg {
+    width: 20%;
+}
+.disappear {
+    animation: vanish 1s forwards;
+}
+@keyframes vanish {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+.students-banner {
+    position: relative;
+    width: 100%;
+    /* background: black; */
+    padding: 2em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 80px;
+    grid-template-areas: 
+    ". title title .";
+}
+.students-banner h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: title;
+    color: white;
+    font-size: 3rem;
+    background: url("students-remake.png") no-repeat center center;
+    font-family: TTSupermolotNeue-ExpBoldIt;
+    
+}
+.all-students {
+    position: relative;
+    display: grid;
+    /* grid-template-columns: repeat(6, 1fr); */
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    width: 100%;
+    background: white;
+    padding: 2em;
+    grid-gap: 1em;
+}
+
+.all-students .grid-items{
+    /* background: blueviolet; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.all-students .grid-items img {
+    width: 13rem;
+}
+.all-students .grid-items a {
+    color: black;
+    font-family: PT Sans;
+}
+
+.shanhaijingg {
+    position: relative;
+    display: grid;
+    display: none;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 300px;
+    place-items: center;
+    width: 100%;
+    background: white;
+    padding: 2em;
+    grid-gap: 1em;
+    grid-template-areas:
+    ". . shun saya . .";
+}
+.shanhaijingg .shun{grid-area: shun;}
+.shanhaijingg .saya{grid-area: saya;}
+.shanhaijingg .grid-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.shanhaijingg .grid-items img {
+    width: 13rem;
+}
+.shanhaijingg .grid-items a {
+    color: black;
+    font-family: PT Sans;
+}
+.hyakiyako {
+    position: relative;
+    display: grid;
+    display: none;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 300px;
+    place-items: center;
+    width: 100%;
+    background: white;
+    padding: 2em;
+    grid-gap: 1em;
+    grid-template-areas: 
+    "chise tsubaki fina izuna shizuko";
+}
+.hyakiyako .chise{grid-area: chise;}
+.hyakiyako .tsubaki{grid-area: tsubaki;}
+.hyakiyako .fina{grid-area: fina;}
+.hyakiyako .izuna{grid-area: izuna;}
+.hyakiyako .shizuko{grid-area: shizuko;}
+.hyakiyako .grid-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.hyakiyako .grid-items img {
+    width: 13rem;
+}
+.hyakiyako .grid-items a {
+    color: black;
+    font-family: PT Sans;
+}
+.valkyriee {
+    position: relative;
+    display: grid;
+    display: none;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 300px;
+    place-items: center;
+    width: 100%;
+    background: white;
+    padding: 2em;
+    grid-gap: 1em;
+    grid-template-areas:
+    "kirino kirino kirino kirino kirino kirino";
+}
+.valkyriee .grid-items a {
+    color: black;
+    font-family: PT Sans;
+}
+.valkyriee .grid-items img {
+    width: 13rem;
+}
+.valkyriee .grid-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.valkyriee .kirino {grid-area: kirino;}
+.ariusss {
+    width: 100%;
+    display: none;
+    min-height: 50px;
+    /* background: aqua; */
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.ariusss h3 {
+    font-family: PT Sans;
+    font-size: 2rem;
+}
+
+.red-winter{
+    position: relative;
+    display: grid;
+    display: none;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 300px;
+    place-items: center;
+    width: 100%;
+    background: white;
+    padding: 2em;
+    grid-gap: 1em;
+    grid-template-areas:
+    ". . cherino nodoka . .";
+}
+
+.red-winter .grid-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.red-winter .grid-items img {
+    width: 13rem;
+}
+.red-winter .grid-items a{
+    color: black;
+    font-family: PT Sans;
+}
+.red-winter .cherino{grid-area: cherino;}
+.red-winter .nodoka{grid-area:nodoka;}
+
+.trinity {
+    position: relative;
+    display: grid;
+    display: none;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    width: 100%;
+    background: white;
+    padding: 2em;
+    grid-gap: 1em;
+    grid-template-areas: 
+    "azusa hanako hasumi mashiro tsurugi"
+    "hanae airi serina shimiko yoshimi";
+}
+.trinity .grid-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.trinity .grid-items img {
+    width: 13rem;
+}
+.trinity .grid-items a{
+    color: black;
+    font-family: PT Sans;
+}
+.trinity .azusa{grid-area: azusa;}
+.trinity .hanako{grid-area: hanako;}
+.trinity .hasumi{grid-area: hasumi;}
+.trinity .mashiro{grid-area: mashiro;}
+.trinity .tsurugi{grid-area: tsurugi;}
+.trinity .hanae{grid-area: hanae;}
+.trinity .airi{grid-area: airi;}
+.trinity .serina{grid-area: serina;}
+.trinity .shimiko{grid-area: shimiko;}
+.trinity .yoshimi {grid-area: yoshimi;}
+
+.millennium {
+    position: relative;
+    display: grid;
+    display: none;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 300px);
+    width: 100%;
+    background: white;
+    padding: 2em;
+    grid-gap: 1em;
+    grid-template-areas:
+    "yuuka arisu yuzu momoi midori"
+    "eimi akane asuna neru karin"
+    "kotama hare utaha hibiki kotori"
+    "maki maki maki maki maki";
+}
+.millennium .yuuka{grid-area: yuuka;}
+.millennium .arisu{grid-area: arisu;}
+.millennium .yuzu{grid-area: yuzu;}
+.millennium .momoi{grid-area: momoi;}
+.millennium .midori{grid-area: midori;}
+.millennium .eimi{grid-area: eimi;}
+.millennium .akane{grid-area: akane;}
+.millennium .asuna{grid-area: asuna;}
+.millennium .neru{grid-area: neru;}
+.millennium .karin{grid-area: karin;}
+.millennium .kotama{grid-area: kotama;}
+.millennium .hare{grid-area: hare;}
+.millennium .utaha{grid-area: utaha;}
+.millennium .hibiki{grid-area: hibiki;}
+.millennium .kotori{grid-area: kotori;}
+.millennium .maki{grid-area: maki;}
+
+.millennium .grid-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.millennium .grid-items img {
+    width: 13rem;
+}
+.millennium .grid-items a {
+    color: black;
+    font-family: PT Sans;
+}
+.gehenna {
+    position: relative;
+    display: grid;
+    display: none;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    width: 100%;
+    background: white;
+    padding: 2em;
+    grid-gap: 1em;
+    grid-template-areas:
+    "iori hina aru haruna haruka"
+    "izumi akari kayoko junko mutsuki"
+    "..... chinatsu juri fuuka ......";
+}
+.gehenna .grid-items{
+    /* background: aqua; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.gehenna .grid-items img {
+    width: 13rem;
+}
+.gehenna .grid-items a {
+    color: black;
+    font-family: PT Sans;
+}
+.gehenna .iori{grid-area: iori;}
+.gehenna .hina{grid-area: hina;}
+.gehenna .aru{grid-area: aru;}
+.gehenna .haruna{grid-area: haruna;}
+.gehenna .haruka{grid-area: haruka;}
+.gehenna .izumi{grid-area: izumi;}
+.gehenna .akari{grid-area: akari;}
+.gehenna .kayoko{grid-area: kayoko;}
+.gehenna .junko{grid-area: junko;}
+.gehenna .mutsuki{grid-area: mutsuki;}
+.gehenna .chinatsu{grid-area: chinatsu;}
+.gehenna .juri{grid-area: juri;}
+.gehenna .fuuka{grid-area: fuuka;}
+
+.abydos {
+    position: relative;
+    display: grid;
+    display: none;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 300px;
+    width: 100%;
+    background: white;
+    padding: 2em;
+    grid-gap: 1em;
+    grid-template-areas: 
+    "shiroko nonomi hoshino serika ayane";
+}
+
+.abydos .grid-items{
+    /* background: aqua; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.abydos .shiroko{grid-area: shiroko;}
+.abydos .nonomi{grid-area: nonomi;}
+.abydos .hoshino{grid-area: hoshino;}
+.abydos .serika{grid-area: serika;}
+.abydos .ayane{grid-area: ayane;}
+
+/* media for student grid */
+@media all and (max-width:1216px){
+    .abydos {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 300px);
+        grid-template-areas: 
+        "shiroko nonomi hoshino serika"
+        "....... ayane ayane .....";
+    }
+    .gehenna {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 300px);
+        grid-template-areas:
+        "iori hina aru haruna"
+        "haruka izumi akari kayoko"
+        "junko mutsuki chinatsu juri"
+        "fuuka fuuka fuuka fuuka";
+    }
+    .millennium {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 300px);
+        grid-template-areas:
+        "yuuka arisu yuzu momoi"
+        "midori eimi akane asuna"
+        "neru karin kotama hare"
+        "utaha hibiki kotori maki";
+    }
+    .trinity {
+        grid-template-rows: repeat(3, 300px);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        "azusa hanako hasumi mashiro"
+        "tsurugi hanae airi serina"
+        "....... shimiko yoshimi ....";
+    }
+    .hyakiyako {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 300px);
+        grid-template-areas: 
+        "chise tsubaki fina izuna"
+        "....... shizuko shizuko .....";
+    }
+    .students-banner {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        "title title title";
+    }
+}
+@media all and (max-width:966px){
+    .abydos {
+        grid-template-rows: repeat(3, 300px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "shiroko nonomi"
+        "hoshino serika"
+        "ayane ayane";
+    }
+    .gehenna {
+        grid-template-rows: repeat(7, 300px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "iori hina" 
+        "aru haruna"
+        "haruka izumi"
+        "akari kayoko"
+        "junko mutsuki"
+        "chinatsu juri"
+        "fuuka fuuka";
+    }
+    .millennium {
+        grid-template-rows: repeat(8, 300px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "yuuka arisu" 
+        "yuzu momoi"
+        "midori eimi" 
+        "akane asuna"
+        "neru karin" 
+        "kotama hare"
+        "utaha hibiki"
+        "kotori maki";
+    }
+    .trinity {
+        grid-template-rows: repeat(5, 300px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "azusa hanako"
+        "hasumi mashiro"
+        "tsurugi hanae"
+        "airi serina"
+        "shimiko yoshimi";
+    }
+    .students-banner {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "title title";
+    }
+    .hyakiyako {
+        grid-template-rows: repeat(3, 300px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "chise tsubaki"
+        "fina izuna"
+        "shizuko shizuko";
+    }
+}
+@media all and (max-width:500px){
+    .abydos {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 300px);
+        grid-template-areas:
+        "shiroko" 
+        "nonomi"
+        "hoshino" 
+        "serika"
+        "ayane";
+    }
+    .gehenna {
+        grid-template-rows: repeat(13, 300px);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "iori" 
+        "hina" 
+        "aru" 
+        "haruna"
+        "haruka" 
+        "izumi"
+        "akari" 
+        "kayoko"
+        "junko" 
+        "mutsuki"
+        "chinatsu" 
+        "juri"
+        "fuuka";
+    }
+    .millennium {
+        grid-template-rows: repeat(16, 300px);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "yuuka"
+        "arisu" 
+        "yuzu"
+        "momoi"
+        "midori"
+        "eimi" 
+        "akane"
+        "asuna"
+        "neru"
+        "karin" 
+        "kotama"
+        "hare"
+        "utaha"
+        "hibiki"
+        "kotori"
+        "maki";
+    }
+    .trinity {
+        grid-template-rows: repeat(10, 300px);
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "azusa"
+        "hanako"
+        "hasumi"
+        "mashiro"
+        "tsurugi"
+        "hanae"
+        "airi"
+        "serina"
+        "shimiko"
+        "yoshimi";
+    }
+    .red-winter {
+        grid-template-rows: repeat(2, 300px);
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "cherino"
+        "nodoka";
+    }
+    .shanhaijingg {
+        grid-template-rows: repeat(2, 300px);
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "shun"
+        "saya";
+    }
+    .hyakiyako {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 300px);
+        grid-template-areas:
+        "chise" 
+        "tsubaki"
+        "fina" 
+        "izuna"
+        "shizuko";
+    }
+}
+.abydos .grid-items img {
+    width: 13rem;
+}
+
+.abydos .grid-items a {
+    color: black;
+    font-family: PT Sans;
+}
+.hero-footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "hero hero hero hero";
+}
+.hero-footer .grid-items {
+    grid-area: hero;
+    /* background: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-footer img {
+    width: 30rem;
+    z-index: 0;
+    transform: translateY(50px);
+}
+.footer {
+    position: relative;
+    display: grid;
+    width: 100%;
+    /* background: blue; */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "contentt contentt contentt contentt"
+}
+.footer .hero-footer{
+    grid-area: hero;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+}
+.footer .footer-content{
+    padding-top: 2em;
+    border-radius: 50px 50px 0 0;
+    grid-auto-rows: minmax(30px, auto);
+    grid-area: contentt;
+    position: relative;
+    z-index: 10;
+    background: #48bfe3;
+    box-shadow: -2px -6px 17px 0px rgba(1, 73, 124,.34);
+    -webkit-box-shadow: -2px -6px 17px 0px rgba(1, 73, 124,.34);
+    -moz-box-shadow: -2px -6px 17px 0px rgba(1, 73, 124,.34);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .footer-content .copyright {
+    width: 100%;
+    min-height: 10vh;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .footer-content .copyright a {
+    font-size: 1.3rem;
+    padding: 12px 30px 10px;
+    color: white;
+    font-family: bafont;
+    border-right: 5px solid white;
+}
+.footer .footer-content .copyright .cp1 {
+    border: 0px solid transparent;
+}
+
+.footer .footer-content img {
+    padding-bottom: 6em;
+    transform: translateY(50px);
+    width: 50rem;
+}
+.footer .footer-content .download-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+.footer .footer-content .download-button a{
+    padding-right: 2em;
+    margin-left: 2em;
+}
+.footer .footer-content .download-button a img {
+    width: 20rem;
+}
+.footer .footer-content #home-toggle {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+@media all and (max-width: 828px) {
+    .footer{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        "contentt contentt contentt";
+    }
+    .footer .footer-content img {
+        width: 40rem;
+        transition: width .5s ease-in;
+    }
+    .footer .footer-content .copyright a {
+        font-size: 1rem;
+        transition: font-size .5s ease-in;
+    }
+    .footer .footer-content .download-button a img {
+        width: 15rem;
+        transition: width .5s ease-in;
+    }
+}
+@media all and (max-width: 671px) {
+    .footer{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "contentt contentt";
+    }
+    .footer .footer-content img {
+        width: 30rem;
+        transition: width .5s ease-in;
+    }
+    .footer .footer-content .copyright a {
+        font-size: 1rem;
+        transition: font-size .5s ease-in;
+    }
+    .footer .footer-content .download-button a img {
+        width: 13rem;
+        transition: width .5s ease-in;
+    }
+}
+@media all and (max-width: 581px) {
+    .hero-footer img {
+        width: 20rem;
+        transition: width .5s ease-in;
+    }
+    .footer{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "contentt contentt";
+    }
+    .footer .footer-content img {
+        width: 25rem;
+        transition: width .5s ease-in;
+    }
+    .footer .footer-content .copyright a {
+        font-size: .7rem;
+        transition: font-size .5s ease-in;
+    }
+    .footer .footer-content .download-button a img {
+        width: 10rem;
+        transition: width .5s ease-in;
+    }
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    min-height: 10vh;
+    text-align: center;
+    background:#0F183D;
+}
+footer p{
+    padding-top: 10px;
+    font-size: 1rem;
+    font-family: Poppins;
+    color: white;
+}
+footer .logo-acc {
+    padding-bottom: 1em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+footer .logo-acc i {
+    font-size: 1.3rem;
+}
+footer .logo-acc a {
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+} 
+@media all and (max-width: 1411px){
+    header{
+        position: relative;
+        max-width: 100%;
+        align-items: center;
+        font-family: bafont;
+        background: rgba(1, 73, 124, 0.6);
+        display: flex;
+        justify-content: space-between;
+        z-index: 1;
+        text-transform: uppercase;
+    }
+    
+    header a img {
+        width: 12rem;
+        padding-left: 5em;
+    }
+    header .menu {
+        padding-right: 2em;;
+    }
+    header nav ul {
+        display: flex;
+        width: 100%;
+        padding-right: 1em;
+        justify-content: space-between;
+        /* padding-top: 1em; */
+    }
+    header nav ul li a{
+        color: white;
+        font-size:11px;
+        padding: 12px 30px 10px;
+    }
+    header nav ul li a .yt-logo{
+        width: 5rem;
+        align-items: center;
+        justify-content: center;
+        padding-left: 5px;
+    }
+    header nav ul li a .tw-logo{
+        width: 2.5rem;
+        border-top: 0;
+        padding-left: 5px;
+
+    }
+    .tester2 {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 1014px;
+    }
+    .tester2 video {
+        position: absolute;
+        top: -66px;
+        right: -50px;
+    }
+    .tester2 .logo {
+        position: absolute;
+        top: 40vh;
+        left: 30vw;
+    }
+    .container-vid {
+        display: none;
+    }
+
+    .home .video {
+        display: none;
+    }
+    .Club {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "title title title"
+        "abydos gehenna milenium"
+        "trinity winter shan"
+        "hyakiyakko arius valkyrie";
+    }
+
+    .preload video {
+        width: 30%;
+    }
+    .footer img{
+        z-index: 0;
+        width: 40%;
+        transform: translateY(50px);
+    }
+}
+
+@media all and (max-width: 1056px){
+    /* .custom-shape-divider-top-1631842481 svg {
+        width: calc(100% + 1.3px);
+        height: 10px;
+    } */
+    header {
+        background: #01497c99;
+    }
+    header img {
+        width: 12rem;
+        padding-left: 2em;
+        transition:cubic-bezier(0.77,0,0.18,1);
+    }
+    header nav ul li a .yt-logo{
+        display: block;
+    }
+    header nav ul li a .tw-logo {
+        display: block;
+    }
+    header nav ul li a {
+        display: block;
+    }
+    .container-vid {
+        display: none;
+    }
+    .container-vid .logo {
+        display: block;
+        z-index: 900;
+    }
+    .home .top-bg-cover {
+        
+        height: 120vh;
+    }
+    .home .video{
+        display: none;
+    }
+    .tester {
+        display: none;
+    }
+    /* .tester {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 108.1vh;
+        background-size: cover;
+    }
+    .tester video {
+        position: absolute;
+        top: -66px;
+        right: -50px;
+    }
+
+    .tester .logo {
+        position: absolute;
+        top: 40vh;
+        left: 24vw;
+        z-index: 0;
+    } */
+    .tester2 {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 1014px;
+    }
+    .tester2 video {
+        position: absolute;
+        top: -66px;
+        right: -20em;
+    }
+    .tester2 .logo {
+        position: absolute;
+        top: 40vh;
+        left: 30vw;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        height: 20px;
+        justify-content: space-between;
+        position: relative;
+        z-index: 10;
+    }
+    
+    .menu input {
+        position: absolute;
+        width: 40px;
+        height: 28px;
+        opacity: 0;
+        left: -5px;
+        top: -5px;
+        cursor: pointer;
+        z-index: 10;
+    }
+    
+    .menu span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: white;
+        border-radius: 3px;
+        transition: all 0.2s;
+    }
+    .menu span:nth-child(2){
+        transform-origin: 0 0;
+    }
+    .menu span:nth-child(4){
+        transform-origin: 0 100%;
+    }
+    .menu input:checked ~ span:nth-child(2){
+        background-color: white;
+        transform: rotate(45deg) translate(-2px, -1px);
+    }
+    
+    .menu input:checked ~ span:nth-child(3){
+        opacity: 0;
+        transform: scale(0);
+    }
+    
+    
+    .menu input:checked ~ span:nth-child(4){
+        background-color: white;
+        transform: rotate(-45deg) translate(-2px, 0);
+    }
+    header nav ul {
+        position: absolute;
+        right: 0;
+        flex-direction: column;
+        background-color:#48bfe3;
+        top:0;
+        width: 50%;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-evenly;
+        z-index: 4;
+        transform: translateX(100%);
+        transition: all 0.5s;
+    }
+    header nav ul.slide{
+        transform: translateX(0);
+    }
+    .main p{
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    .Club {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "title title"
+        "abydos gehenna"
+        "milenium trinity"
+        "winter shan"
+        "hyakiyakko arius"
+        "valkyrie valkyrie";
+    }
+    .preload video {
+        width: 50%;
+    }
+    .footer img{
+        z-index: 0;
+        width: 50%;
+        transform: translateY(50px);
+    }
+    footer p {
+        font-size: 0.8rem;
+    }
+    /* grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas:
+      "header header  header"
+      "nav    content sidebar"
+      "nav    content ad"
+      "footer footer  footer" */
+}
+@media all and (max-width: 600px){
+    /* .custom-shape-divider-top-1631842481 svg {
+        width: calc(100% + 1.3px);
+        height: 10px;
+    } */
+    header {
+        background: #01497c99;
+    }
+    header a img {
+        width: 8rem;
+        padding-left: 1.2em;
+        
+    }
+    header nav ul li a .yt-logo{
+        display: block;
+    }
+    header nav ul li a .tw-logo {
+        display: block;
+    }
+    header nav ul li a {
+        display: block;
+    }
+    .container-vid {
+        display: none;
+    }
+    .container-vid .logo {
+        display: block;
+        z-index: 900;
+    }
+    .home .top-bg-cover {
+        
+        height: 120vh;
+    }
+    .home .video{
+        display: none;
+    }
+    .tester2 {
+        display: none;
+    }
+    .tester {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 1014px;
+        background-size: cover;
+    }
+    .tester video {
+        position: absolute;
+        top: -66px;
+        right: -50px;
+    }
+
+    .tester .logo {
+        position: absolute;
+        top: 40vh;
+        left: 24vw;
+        z-index: 0;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        height: 20px;
+        justify-content: space-between;
+        position: relative;
+        z-index: 10;
+    }
+    
+    .menu input {
+        position: absolute;
+        width: 40px;
+        height: 28px;
+        opacity: 0;
+        left: -5px;
+        top: -5px;
+        cursor: pointer;
+        z-index: 10;
+    }
+    
+    .menu span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: white;
+        border-radius: 3px;
+        transition: all 0.2s;
+    }
+    .menu span:nth-child(2){
+        transform-origin: 0 0;
+    }
+    .menu span:nth-child(4){
+        transform-origin: 0 100%;
+    }
+    .menu input:checked ~ span:nth-child(2){
+        background-color: white;
+        transform: rotate(45deg) translate(-2px, -1px);
+    }
+    
+    .menu input:checked ~ span:nth-child(3){
+        opacity: 0;
+        transform: scale(0);
+    }
+    
+    
+    .menu input:checked ~ span:nth-child(4){
+        background-color: white;
+        transform: rotate(-45deg) translate(-2px, 0);
+    }
+    header nav ul {
+        position: absolute;
+        right: 0;
+        flex-direction: column;
+        background-color:#48bfe3;
+        top:0;
+        width: 80%;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-evenly;
+        z-index: 4;
+        transform: translateX(100%);
+        transition: all 0.5s;
+    }
+    header nav ul.slide{
+        transform: translateX(0);
+    }
+    .main p{
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    .Club {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "title"
+        "abydos"
+        "gehenna"
+        "milenium"
+        "trinity"
+        "winter"
+        "shan"
+        "hyakiyakko"
+        "arius"
+        "valkyrie";
+    }
+    .preload .svg {
+        width: 35rem;
+    }
+    .footer img{
+        z-index: 0;
+        width: 70%;
+        transform: translateY(50px);
+    }
+    footer p {
+        font-size: 0.8rem;
+    }
+    .main h1 {
+        font-size: 2rem;
+    }
+    .hero-footer img {
+        width: 20rem;
+        transition: width .5s ease-in;
+    }
+    .footer{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "contentt contentt";
+    }
+    .footer .footer-content img {
+        width: 20rem;
+        transition: width .5s ease-in;
+    }
+    .footer .footer-content .copyright {
+        flex-direction: column;
+        
+    }
+    .footer .footer-content .copyright a {
+        border-bottom: 5px solid white;
+        border-right: 0px solid white;
+        display: block;
+        font-size: .8rem;
+        transition: font-size .5s ease-in;
+    }
+    .footer .footer-content .download-button {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .footer .footer-content .download-button a img {
+        margin-top: 0;
+        margin-right: 0;
+        width: 10rem;
+        transition: width .5s ease-in;
+    }
+}
