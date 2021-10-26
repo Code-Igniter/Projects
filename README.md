@@ -2,4 +2,4 @@
 
 Just for bunch of Web Projects
 
-Not Complete!
+1. Blue Archive Fanpage (Completed)
